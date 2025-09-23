@@ -3,11 +3,11 @@ title: "Iplcollege"
 date: "2023-03-17"
 description: "IPLC is a college in Tanay, Rizal Philippines. I had the opportunity to work with the Institute where I served as a Full Stack Web Developer. During my time there, I led the development of a modernized school website, along with a new student management and admissions system."
 banners:
-  - src: '/img/iplc.jpg'
+  - src: 'iplc.jpg'
     alt: 'Conversation interface of iplcollege website'
-  - src: '/img/iplc-home.png'
+  - src: 'iplc-home.png'
     alt: 'Homepage design of iplcollege landing page'
-  - src: '/img/iplc-event.png'
+  - src: 'iplc-event.png'
     alt: 'User interface elements of iplcollege site'
 
 sections:

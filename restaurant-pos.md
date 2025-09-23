@@ -4,11 +4,11 @@ date: '2023-03-17'
 description: 'This is a point-of-sale system designed specifically for restaurants. My inspiration came from my previous experience working in a restaurant, where I was fascinated by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented.'
 
 banners:
-  - src: '/img/pay.png'
+  - src: 'pay.png'
     alt: 'Conversation interface of iplcollege website'
-  - src: '/img/meals.png'
+  - src: 'meals.png'
     alt: 'Homepage design of iplcollege landing page'
-  - src: '/img/slots.png'
+  - src: 'slots.png'
     alt: 'User interface elements of iplcollege site'
 
 sections:

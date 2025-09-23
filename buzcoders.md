@@ -3,11 +3,11 @@ title: 'Buzcoders'
 date: '2023-03-17'
 description: 'A web agency website for a company that specializes in advertising via websites, SEO, paid ads etc. They contacted me for a landing page.'
 banners:
-  - src: '/img/buzcoders-convo.jpg'
+  - src: 'buzcoders-convo.jpg'
     alt: 'Conversation interface of Buzcoders website'
-  - src: '/img/buzcoders-home.jpg'
+  - src: 'buzcoders-home.jpg'
     alt: 'Homepage design of Buzcoders landing page'
-  - src: '/img/buzcoders-interface.jpg'
+  - src: 'buzcoders-interface.jpg'
     alt: 'User interface elements of Buzcoders site'
 
 sections:
