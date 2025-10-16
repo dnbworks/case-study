@@ -2,6 +2,8 @@
 title: 'Buzcoders'
 date: '2023-03-17'
 description: 'A web agency website for a company that specializes in advertising via websites, SEO, paid ads etc. They contacted me for a landing page.'
+source_code: ''
+live: ''
 banners:
   - src: 'buzcoders-convo.jpg'
     alt: 'Conversation interface of Buzcoders website'
