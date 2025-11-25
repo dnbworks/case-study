@@ -35,9 +35,9 @@ sections:
     title: 'Problems and Solutions'
     description: |
       Managing complex order flows (e.g., multiple items, special instructions, real-time updates) without confusing the UI
-      To support complex order flows without overwhelming users, I designed and implemented a modular component system using React. I leveraged Context API and custom hooks for clear and maintainable state management across components. Each order component dynamically renders real-time updates (e.g., item status changes, preparation notes, or delivery time adjustments), maintaining a responsive and intuitive interface. Special attention was given to conditional rendering and adaptive UI patterns to handle edge cases—such as split bills, order modifications, or simultaneous updates—ensuring a seamless experience even under high-volume usage.
+      To support complex order flows without overwhelming users, I designed and implemented a modular component system using React. I leveraged Context API and custom hooks for clear and maintainable state management across components. maintaining a responsive and intuitive interface. Special attention was given to conditional rendering and adaptive UI patterns to handle edge cases such as split bills, order modifications, or simultaneous updates ensuring a seamless experience even under high volume usage.
 
-      Role-based access was difficult to structure cleanly — I needed different permissions for waitstaff, kitchen staff, and admins
+      Role-based access was difficult to structure cleanly. I needed different permissions for waitstaff, kitchen staff, and admins
       To address this challenge, I implemented robust Role-Based Access Control (RBAC) using JSON Web Tokens (JWT) and backend middleware. Each user receives a role-encoded token at login, which is validated on every request. Middleware logic determines access rights per endpoint and UI visibility rules based on the role. For example, kitchen staff only see pending preparation items, while admins have full access to analytics and system settings. This approach keeps the UI clean and task-focused for each user group, enhancing both security and usability.
 
       Handling offline scenarios and syncing orders when the connection is restored

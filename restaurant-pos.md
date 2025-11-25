@@ -15,7 +15,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This is a point-of-sale system designed specifically for restaurants. My inspiration came from my previous experience working in a restaurant, where I was fascinated by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented. This curiosity led me to start a personal project to build a similar system, which helped me explore and learn technologies like React.js and Redux Toolkit
+      This is a point of sale system designed specifically for restaurants. My inspiration came from my previous experience working in a restaurant, where I was fascinated by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented. This curiosity led me to start a personal project to build a similar system, which helped me explore and learn technologies like React.js and Redux Toolkit
   tech:
     title: 'Tech Stack'
     items:

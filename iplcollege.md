@@ -34,7 +34,7 @@ sections:
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |
-      Previously, IPLC relied on Google Forms, emails, its Facebook page, and walk-ins to admit new students. While this approach got the job done, it lacked centralization and was inefficient. Managing data across multiple platforms was a hassle for the institute, and manually collecting and transferring information into spreadsheets was time-consuming and error-prone. To address this, I proposed centralizing the entire admissions process. The solution was to develop a dedicated admission system along with a student portal.
+      Previously, IPLC relied on Google Forms, emails, its Facebook page, and walk-ins to admit new students. While this approach got the job done, it lacked centralization and was inefficient. Managing data across multiple platforms was a hassle for the institute, and manually collecting and transferring information into spreadsheets was time consuming and error prone. To address this, I proposed centralizing the entire admissions process. The solution was to develop a dedicated admission system along with a student portal.
 
 
 
