@@ -1,7 +1,7 @@
 ---
 title: 'Restaurant POS'
 date: '2023-03-17'
-description: 'POS for restaurants. The inspiration came from my previous job as a waiter, where I was amazed by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented.'
+description: 'This is a Point of Sale (POS) system designed for restaurants. My inspiration came directly from the system we use at Cielo Alto Place, where I currently work, I was amazed by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it worked.'
 
 banners:
   - src: 'pay.png'
@@ -15,7 +15,14 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This is a point of sale system designed specifically for restaurants. My inspiration came from my previous experience working in a restaurant, where I was fascinated by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented. This curiosity led me to start a personal project to build a similar system, which helped me explore and learn technologies like React.js and Redux Toolkit
+      While I was learning myself React, I brainstormed various projects to build. Most of the ideas I found online were a bit too basic, and I wanted to challenge myself with something more complex. I began admiring the logic behind our workplace POS, amused enough. I started sketching the UI screen by screen. whenever the cashier placed orders. This project is a functional replica of that system.
+
+      Key Logic & Features
+      The system follows a specific operational flow:
+      Order Finality: Once an order is placed, it cannot be canceled.
+      Order Management: To handle mistakes or changes, users have the option to either complete the sale or transfer those items to a different order.
+      
+      Exploring the "why" behind these features was fascinating. While some of the logic seemed simple on the surface, implementing it correctly required a deep dive into state management. This curiosity drove me to use React.js and Redux Toolkit, which allowed me to manage complex order states effectively.
   tech:
     title: 'Tech Stack'
     items:
@@ -34,10 +41,11 @@ sections:
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |
-      Moving orders to other tabs
+      Order Reassignment
 
-      In the restaurant, once an order like a Carbonara is placed, a receipt is immediately printed and sent to the kitchen. The kitchen staff and chefs begin preparing the meal right away. However, if a customer later decides to cancel the order, the system doesn't allow it to be voided, since it's already been recorded as a sale.
-      To handle this, we adopted a workaround: if another customer comes in later that day and orders the same item, we would assign the original (now unwanted) order to the new customer's tab. This approach prevents the order from being wasted and avoids having to cancel it, which the system does not permit due to how sales are tracked.
+      In a fast paced restaurant environment, efficiency is key. Once an order such as a Carbonara is placed, a receipt is instantly generated and sent to the kitchen for preparation. Because the system records this as an active sale immediately, the order cannot be voided or canceled.
+
+      To manage this, the system allows for order reassignment. If a customer needs to change their mind after the kitchen has started cooking, the unwanted item is held in the system. When a subsequent customer orders that same dish, the staff can simply transfer the original entry to the new customer's tab. This method ensures that sales records remain accurate and prevents food waste while adhering to the system's strict "no-void" policy.
 
 
  
