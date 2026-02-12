@@ -14,7 +14,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      I had the opportunity to work with IPLC, a college based in Tanay, Rizal, Philippines, where I served as a Full Stack Web Developer. During my time there, I led the development of a modernized school website, along with a new student management and admissions system.
+      I had the opportunity to work with IPLC, a college in Tanay, Rizal, Philippines. I served as a Full Stack Web Developer. During my time there, I led the development of a modernized school website, along with a new student portal and admissions system.
   tech:
     title: 'Tech Stack'
     items:

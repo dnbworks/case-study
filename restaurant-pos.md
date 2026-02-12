@@ -1,7 +1,7 @@
 ---
 title: 'Restaurant POS'
 date: '2023-03-17'
-description: 'This is a point-of-sale system designed specifically for restaurants. My inspiration came from my previous experience working in a restaurant, where I was fascinated by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented.'
+description: 'POS for restaurants. The inspiration came from my previous job as a waiter, where I was amazed by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it was implemented.'
 
 banners:
   - src: 'pay.png'
