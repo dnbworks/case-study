@@ -1,7 +1,7 @@
 ---
 title: "Iplcollege"
 date: "2023-03-17"
-description: "IPLC is a college in Tanay, Rizal Philippines. I had the opportunity to work with the Institute where I served as a Full Stack Web Developer. During my time there, I led the development of a modernized school website, along with a new student management and admissions system."
+description: "IPLC is a college in Tanay, Rizal Philippines. I had the opportunity to work with the Institute where I served as a Full Stack Web Developer. During my time at IPLC, I led the development of a modernized school website, a student portal and an admissions system."
 banners:
   - src: 'iplc.jpg'
     alt: 'Conversation interface of iplcollege website'
@@ -14,7 +14,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      I had the opportunity to work with IPLC, a college in Tanay, Rizal, Philippines. I served as a Full Stack Web Developer. During my time there, I led the development of a modernized school website, along with a new student portal and admissions system.
+      IPLC is a college in Tanay, Rizal Philippines. I had the opportunity to work with the Institute where I served as a Full Stack Web Developer. During my time at IPLC, I led the development of a modernized school website, a student portal and an admissions system.
   tech:
     title: 'Tech Stack'
     items:
@@ -37,12 +37,12 @@ sections:
       Previously, IPLC relied on Google Forms, emails, its Facebook page, and walk-ins to admit new students. While this approach got the job done, it lacked centralization and was inefficient. Managing data across multiple platforms was a hassle for the institute, and manually collecting and transferring information into spreadsheets was time consuming and error prone. To address this, I proposed centralizing the entire admissions process. The solution was to develop a dedicated admission system along with a student portal.
 
 
-
-
   ui_focus:
     title: 'User Interface Focus'
     description: |
-      The UI was designed with simplicity and efficiency in mind, aiming to replicate the smooth experience of modern POS terminals. I focused on creating an intuitive, clean interface that minimizes user error and supports fast-paced environments like restaurants and cafés.
+      The UI design of the IPLC student portal was created with a strong focus on usability, clarity, and alignment with the school’s brand identity. I designed the portal using a step by step guided structure to make navigation intuitive and ensure students can easily complete tasks without confusion. The interface prioritizes simplicity and efficiency, reducing unnecessary elements while highlighting key actions and information. 
+      
+      In addition to the student portal, I also designed the marketing page to present information clearly and attractively for prospective students. The overall UI/UX was developed based on the school’s theme colors, incorporating a purple and blue palette to create a modern, professional, and cohesive visual experience.
 ---
 
 
