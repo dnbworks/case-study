@@ -15,7 +15,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      While I was learning React, I brainstormed various projects to build. Most of the ideas I found online were a bit too basic, and I wanted to challenge myself with something more complex. I began admiring the logic behind our workplace POS, amused enough. I started sketching the UI screen by screen. whenever the cashier placed orders. This project is a functional replica of that system.
+      While I was learning React, I brainstormed various projects to build. I wanted to challenge myself with something more complex. I began admiring the logic behind our workplace POS, amused enough. I started sketching the UI screen by screen. whenever the cashier placed orders. This project is a functional replica of that system.
 
 
   tech:

@@ -30,7 +30,7 @@ sections:
       - Jquery ui
   type:
     title: 'Project Type'
-    value: 'Freelance'
+    value: 'Volunter'
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |

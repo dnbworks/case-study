@@ -16,7 +16,21 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This is a custom-built Point of Sale system designed for restaurants, developed as a portfolio project to demonstrate my full-stack web development skills. The application allows staff to take orders, manage tables, track inventory, and process payments through a clean and responsive interface.
+      A web agency website for a marketing company that specializes in websites, SEO, paid ads etc.
+
+      It was exciting and interesting work on this project, to say the least. 
+
+      I handled from start to finish. Let go through it.
+
+      The designed layout immediately capture attention with a bold hero section, strong messaging, and a clear call to action. The structure guides visitors naturally through the page, from understanding what the company does, to seeing real project examples, to learning about the core values behind the brand. Every section was intentionally placed to support clarity, credibility, and conversion.
+
+
+      On the development side, It was built using a responsive, component based approach to ensure performance, scalability, and maintainability. The entire interface adapts smoothly across devices while maintaining a polished and professional look.
+
+      Wordpress CMS API was the ideal tootl. to use since 
+
+      Overall, this project reflects my ability to take an idea from concept to completion, combining strategic design thinking with solid technical execution to create a website that not only looks good, but works effectively.
+
   tech:
     title: 'Tech Stack'
     items:
@@ -34,19 +48,38 @@ sections:
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |
-      Managing complex order flows (e.g., multiple items, special instructions, real-time updates) without confusing the UI
-      To support complex order flows without overwhelming users, I designed and implemented a modular component system using React. I leveraged Context API and custom hooks for clear and maintainable state management across components. maintaining a responsive and intuitive interface. Special attention was given to conditional rendering and adaptive UI patterns to handle edge cases such as split bills, order modifications, or simultaneous updates ensuring a seamless experience even under high volume usage.
+      Beyond the frontend design, I also developed the backend using Laravel to power a structured service desk system. The goal was to create a reliable internal platform where client inquiries, project requests, and support tickets could be efficiently managed. The system allows administrators to track requests, update statuses, assign tasks, and maintain organized communication logs. Built with Laravel’s MVC architecture, the backend ensures clean code structure, secure authentication, and scalable database management. This setup provides both stability and flexibility, allowing the platform to grow as the business expands. By combining a polished frontend with a robust Laravel backend, the project delivers not just a website, but a complete operational solution that supports real client workflows.
 
-      Role-based access was difficult to structure cleanly. I needed different permissions for waitstaff, kitchen staff, and admins
-      To address this challenge, I implemented robust Role-Based Access Control (RBAC) using JSON Web Tokens (JWT) and backend middleware. Each user receives a role-encoded token at login, which is validated on every request. Middleware logic determines access rights per endpoint and UI visibility rules based on the role. For example, kitchen staff only see pending preparation items, while admins have full access to analytics and system settings. This approach keeps the UI clean and task-focused for each user group, enhancing both security and usability.
+      Initially, the entire platform was built on Laravel, serving both as the public-facing backend and the internal service desk system. Laravel handled everything — contact form submissions, booking requests, administrative workflows, and content-related logic. While this unified structure worked well in the early stages, the application began to grow in scope and complexity. To improve scalability, maintainability, and long-term flexibility, we made a strategic decision to decouple the system based on features and responsibilities.
 
-      Handling offline scenarios and syncing orders when the connection is restored
-      Given the critical nature of uninterrupted order-taking, I implemented a resilient offline-first approach. Using local storage and a custom sync queue, orders are temporarily stored client-side when connectivity drops. A background process monitors network status and automatically pushes pending orders to the server once the connection is restored, resolving any conflicts gracefully. This ensures that users can continue operations without disruption, preserving data integrity and improving reliability in environments with unstable networks.
+      The first step was identifying clear domain boundaries. Laravel remains the core backend for transactional logic — handling contact form submissions, booking management, authentication, database operations, and business rules. It now functions primarily as a secure API layer responsible for structured data processing and workflow control.
+
+      For content management, we introduced WordPress as a dedicated CMS. This separation allows marketing content, blogs, and static pages to be managed independently without affecting application logic. It empowers non-technical users to update content while keeping the operational backend stable and focused.
+
+      For internal operations, we developed a dedicated service desk application using React. This frontend application is used by agents to raise tickets, manage requests, and follow structured workflows. It communicates with the Laravel API to retrieve and update ticket data in real time. By isolating the service desk into a React-based interface, we achieved a more responsive and interactive experience tailored specifically to operational users.
+
+      This decoupled architecture creates clear separation of concerns:
+
+      Laravel → Business logic, bookings, contact handling, API layer
+
+      WordPress → Content management and marketing pages
+
+      React → Internal service desk interface for agents
+
+      The development workflow followed a structured approach. We began by modularizing the Laravel backend into clearly defined services and API endpoints. Next, we integrated WordPress as a content layer while preserving routing boundaries. Finally, we built the React service desk as a client application consuming Laravel APIs, implementing authentication, role-based access control, and ticket lifecycle management.
+
+      This architectural shift improved scalability, performance optimization, deployment flexibility, and long-term maintainability. It also enables independent iteration: content updates, backend enhancements, and service desk improvements can now be developed and deployed separately without disrupting the entire system.
       
   ui_focus:
     title: 'User Interface Focus'
     description: |
-      The UI was designed with simplicity and efficiency in mind, aiming to replicate the smooth experience of modern POS terminals. I focused on creating an intuitive, clean interface that minimizes user error and supports fast-paced environments like restaurants and cafés.
+      For the backend interface, the initial priority was usability and speed of implementation. We adopted a Bootstrap-based admin template as the foundation for the service desk system, allowing us to rapidly establish a clean, structured, and responsive layout. The template provided consistent components such as navigation menus, tables, forms, and dashboards, which were then customized to match our workflow requirements and internal branding. Adjustments were made to improve clarity in ticket statuses, booking visibility, and task management, ensuring agents could process requests efficiently without unnecessary friction.
+
+      Because the backend is used by operational staff daily, the focus was not purely aesthetic but functional — prioritizing clarity, readability, and workflow efficiency. Forms were simplified, ticket states were visually differentiated, and dashboard elements were structured to reduce cognitive load during high-volume activity.
+
+      As the project evolves and we continue decoupling the system, the UI strategy is also transitioning. The long-term goal is to replace the template-based backend interface with a fully component-driven React application. This shift will allow for more dynamic interactions, improved state management, and a more tailored user experience specifically optimized for service desk agents. The React-based interface will provide better real-time updates, modular UI components, and improved scalability as new workflow features are introduced.
+
+      Since the project is ongoing, the UI layer is progressively being refactored — moving from a template-customized Bootstrap structure toward a more flexible, modern frontend architecture. This ensures that the user experience continues to improve alongside the technical decoupling of the system.
 ---
 
 
