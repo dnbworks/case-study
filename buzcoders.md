@@ -16,20 +16,14 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      A web agency website for a marketing company that specializes in websites, SEO, paid ads etc.
+      A web agency website for a marketing company specializing in websites, SEO, paid ads, etc.
+      It was exciting to work on this project, so let's go through it.
 
-      It was exciting and interesting work on this project, to say the least. 
+      Initially. onboarding client. understanding the vision. problem to be solved. basically laying down all the prerequisites
+      of the project. The client had the vision. the process of everything.
 
-      I handled from start to finish. Let go through it.
-
-      The designed layout immediately capture attention with a bold hero section, strong messaging, and a clear call to action. The structure guides visitors naturally through the page, from understanding what the company does, to seeing real project examples, to learning about the core values behind the brand. Every section was intentionally placed to support clarity, credibility, and conversion.
-
-
-      On the development side, It was built using a responsive, component based approach to ensure performance, scalability, and maintainability. The entire interface adapts smoothly across devices while maintaining a polished and professional look.
-
-      Wordpress CMS API was the ideal tootl. to use since 
-
-      Overall, this project reflects my ability to take an idea from concept to completion, combining strategic design thinking with solid technical execution to create a website that not only looks good, but works effectively.
+      A system for managing customers. Like a CRM. or what is so-called the service desk. So like in a line of business. resolution.
+      A system tailored to the company's needs. Where they would assist customers adequately. 
 
   tech:
     title: 'Tech Stack'
