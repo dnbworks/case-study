@@ -1,7 +1,7 @@
 ---
 title: 'Buzcoders'
 date: '2023-03-17'
-description: 'A web agency website for a marketing company that specializes in web design, SEO, paid ads etc.'
+description: 'A web agency website for a marketing company that specializes in web design, SEO, paid ads etc. I was with Buzcoders from September 2024 - May 2025. When I joined, I initiated the stack to be used for the project'
 source_code: 'github/'
 live: 'buzcoders.com'
 banners:
@@ -16,7 +16,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      I was with Buzcoders from September 2024 - May 2025 and it was interesting, to say the least. When I joined, I initaited the stack to be used for the project. When I first joined. Buzcoders was soft opening. Had no website, backend system and SOP. This led to discussions the agenda and how to make both client and server side 
+      I was with Buzcoders from September 2024 - May 2025 and it was interesting, to say the least. When I joined, I initiated the stack to be used for the project. When I first joined. Buzcoders was a soft opening. Had no website, backend system, and SOP. This led to discussions about the agenda and how to make both client and server side. 
 
   tech:
     title: 'Tech Stack'
