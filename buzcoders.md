@@ -1,9 +1,9 @@
 ---
 title: 'Buzcoders'
 date: '2023-03-17'
-description: 'A web agency website for a marketing company that specializes in websites, SEO, paid ads etc. They contacted me for a landing page.'
-source_code: ''
-live: ''
+description: 'A web agency website for a marketing company that specializes in web design, SEO, paid ads etc.'
+source_code: 'github/'
+live: 'buzcoders.com'
 banners:
   - src: 'buzcoders-convo.jpg'
     alt: 'Conversation interface of Buzcoders website'
@@ -16,14 +16,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      A web agency website for a marketing company specializing in websites, SEO, paid ads, etc.
-      It was exciting to work on this project, so let's go through it.
-
-      Initially. onboarding client. understanding the vision. problem to be solved. basically laying down all the prerequisites
-      of the project. The client had the vision. the process of everything.
-
-      A system for managing customers. Like a CRM. or what is so-called the service desk. So like in a line of business. resolution.
-      A system tailored to the company's needs. Where they would assist customers adequately. 
+      I was with Buzcoders from September 2024 - May 2025 and it was interesting, to say the least. When I joined, I initaited the stack to be used for the project. When I first joined. Buzcoders was soft opening. Had no website, backend system and SOP. This led to discussions the agenda and how to make both client and server side 
 
   tech:
     title: 'Tech Stack'
@@ -36,13 +29,40 @@ sections:
       - Jquery 
       - Bootstrap css
       - AJAX
+      - React
   type:
     title: 'Project Type'
     value: 'Freelance'
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |
-      Beyond the frontend design, I also developed the backend using Laravel to power a structured service desk system. The goal was to create a reliable internal platform where client inquiries, project requests, and support tickets could be efficiently managed. The system allows administrators to track requests, update statuses, assign tasks, and maintain organized communication logs. Built with Laravel’s MVC architecture, the backend ensures clean code structure, secure authentication, and scalable database management. This setup provides both stability and flexibility, allowing the platform to grow as the business expands. By combining a polished frontend with a robust Laravel backend, the project delivers not just a website, but a complete operational solution that supports real client workflows.
+
+      Problem 1. onboarding client. 
+
+      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn.
+
+      I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process.
+
+      Part of this was putting together an SOP for certain tasks. 
+
+      Transplating that into software that meets the company needs.
+
+      Client outreach
+      1. Cold calls
+      2. Website Contact form / web email
+
+      Laying down all the prerequisites.
+      Tech to use.
+
+      As this was company was a small sized company.
+      
+
+      A system for managing customers. Like a CRM. or what is so-called the service desk. So like in a line of business. resolution.
+      A system tailored to the company's needs. Where they would assist customers adequately. 
+
+      we defined functional requirements and data flow diagrams. The focus was on how transactions affect inventory stock while retaining data integrity - no editing transactions, proper audit trails, the works.
+
+      Finally, we designed the interface with one principle: simple and straightforward. No frills. Everything warehouse staff needs should be instantly readable at a glance. Nothing hidden for the sake of "minimal" design. These were the initial wireframes on Whimsical.
 
       Initially, the entire platform was built on Laravel, serving both as the public-facing backend and the internal service desk system. Laravel handled everything — contact form submissions, booking requests, administrative workflows, and content-related logic. While this unified structure worked well in the early stages, the application began to grow in scope and complexity. To improve scalability, maintainability, and long-term flexibility, we made a strategic decision to decouple the system based on features and responsibilities.
 
@@ -52,28 +72,13 @@ sections:
 
       For internal operations, we developed a dedicated service desk application using React. This frontend application is used by agents to raise tickets, manage requests, and follow structured workflows. It communicates with the Laravel API to retrieve and update ticket data in real time. By isolating the service desk into a React-based interface, we achieved a more responsive and interactive experience tailored specifically to operational users.
 
-      This decoupled architecture creates clear separation of concerns:
 
-      Laravel → Business logic, bookings, contact handling, API layer
-
-      WordPress → Content management and marketing pages
-
-      React → Internal service desk interface for agents
-
-      The development workflow followed a structured approach. We began by modularizing the Laravel backend into clearly defined services and API endpoints. Next, we integrated WordPress as a content layer while preserving routing boundaries. Finally, we built the React service desk as a client application consuming Laravel APIs, implementing authentication, role-based access control, and ticket lifecycle management.
-
-      This architectural shift improved scalability, performance optimization, deployment flexibility, and long-term maintainability. It also enables independent iteration: content updates, backend enhancements, and service desk improvements can now be developed and deployed separately without disrupting the entire system.
-      
   ui_focus:
     title: 'User Interface Focus'
     description: |
-      For the backend interface, the initial priority was usability and speed of implementation. We adopted a Bootstrap-based admin template as the foundation for the service desk system, allowing us to rapidly establish a clean, structured, and responsive layout. The template provided consistent components such as navigation menus, tables, forms, and dashboards, which were then customized to match our workflow requirements and internal branding. Adjustments were made to improve clarity in ticket statuses, booking visibility, and task management, ensuring agents could process requests efficiently without unnecessary friction.
+      For the backend interface, the initial priority was usability and speed of implementation. We adopted a Bootstrap based admin template as the foundation for the admin system, allowing us to rapidly establish a clean, structured, and responsive layout. The template provided consistent components such as navigation menus, tables, forms, and dashboards, which were then customized to match our workflow requirements and internal branding. Adjustments were made to improve clarity in ticket statuses, booking visibility, and task management, ensuring agents could process requests efficiently without unnecessary friction.
 
-      Because the backend is used by operational staff daily, the focus was not purely aesthetic but functional — prioritizing clarity, readability, and workflow efficiency. Forms were simplified, ticket states were visually differentiated, and dashboard elements were structured to reduce cognitive load during high-volume activity.
-
-      As the project evolves and we continue decoupling the system, the UI strategy is also transitioning. The long-term goal is to replace the template-based backend interface with a fully component-driven React application. This shift will allow for more dynamic interactions, improved state management, and a more tailored user experience specifically optimized for service desk agents. The React-based interface will provide better real-time updates, modular UI components, and improved scalability as new workflow features are introduced.
-
-      Since the project is ongoing, the UI layer is progressively being refactored — moving from a template-customized Bootstrap structure toward a more flexible, modern frontend architecture. This ensures that the user experience continues to improve alongside the technical decoupling of the system.
+      Since the project is ongoing, the UI layer is progressively being refactored, moving from a template-customized Bootstrap structure toward a more flexible, modern frontend architecture. This ensures that the user experience continues to improve alongside the technical decoupling of the system.
 ---
 
 

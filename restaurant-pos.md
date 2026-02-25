@@ -46,8 +46,6 @@ sections:
 
       To manage this, the system allows for order reassignment. If a customer needs to change their mind after the kitchen has started cooking, the unwanted item is held in the system. When a subsequent customer orders that same dish, the staff can simply transfer the original entry to the new customer's tab. This method ensures that sales records remain accurate and prevents food waste while adhering to the system's strict "no-void" policy.
 
-      
- 
   ui_focus:
     title: 'User Interface Focus'
     description: |
