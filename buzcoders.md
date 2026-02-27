@@ -1,6 +1,7 @@
 ---
 title: 'Buzcoders'
 date: '2023-03-17'
+period: "June 2022 - Nov 2024"
 description: 'A web agency website for a marketing company that specializes in web design, SEO, paid ads etc. I was with Buzcoders from September 2024 - May 2025. When I joined, I initiated the stack to be used for the project'
 source_code: 'https://github.com/'
 live: 'https://buzcoders.com'
