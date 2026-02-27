@@ -40,42 +40,28 @@ sections:
 
       Problem 1. onboarding client. 
 
-      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn. I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process. Part of this was putting together an SOP for certain tasks. 
+      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn. I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process. Part of this was putting together an SOP for certain tasks. Transplating that into software that meets the company needs.
+    
 
-      Transplating that into software that meets the company needs.
+      I built a customer management system, essentially a CRM and service desk tailored to the company’s day-to-day operations. The goal was simple: help staff resolve customer requests smoothly and efficiently.
 
-      Client outreach
-      1. Cold calls
-      2. Website Contact form / web email
+      Early on, I mapped out the functional requirements and data flows, paying close attention to how transactions affect inventory. Data integrity was critical, no editing past transactions, clear audit trails, and full traceability.
 
-      Laying down all the prerequisites.
-      Tech to use.
+      When designing the interface, I kept one rule in mind: clarity over flash. Warehouse staff should see everything they need at a glance — no hidden actions, no unnecessary minimalism. Just straightforward, practical design.
 
-      As this was company was a small sized company.
-      
+      At first, the entire platform ran on Laravel, handling everything from contact forms and bookings to admin workflows and content. As the system grew, I split responsibilities to keep it scalable and easier to maintain.
 
-      A system for managing customers. Like a CRM. or what is so-called the service desk. So like in a line of business. resolution.
-      A system tailored to the company's needs. Where they would assist customers adequately. 
+      Laravel now serves as the core API, managing business logic, authentication, bookings, and database operations. I introduced WordPress for content management, allowing marketing and content updates without touching the application logic.
 
-      we defined functional requirements and data flow diagrams. The focus was on how transactions affect inventory stock while retaining data integrity - no editing transactions, proper audit trails, the works.
-
-      Finally, we designed the interface with one principle: simple and straightforward. No frills. Everything warehouse staff needs should be instantly readable at a glance. Nothing hidden for the sake of "minimal" design. These were the initial wireframes on Whimsical.
-
-      Initially, the entire platform was built on Laravel, serving both as the public-facing backend and the internal service desk system. Laravel handled everything — contact form submissions, booking requests, administrative workflows, and content-related logic. While this unified structure worked well in the early stages, the application began to grow in scope and complexity. To improve scalability, maintainability, and long-term flexibility, we made a strategic decision to decouple the system based on features and responsibilities.
-
-      The first step was identifying clear domain boundaries. Laravel remains the core backend for transactional logic — handling contact form submissions, booking management, authentication, database operations, and business rules. It now functions primarily as a secure API layer responsible for structured data processing and workflow control.
-
-      For content management, we introduced WordPress as a dedicated CMS. This separation allows marketing content, blogs, and static pages to be managed independently without affecting application logic. It empowers non-technical users to update content while keeping the operational backend stable and focused.
-
-      For internal operations, we developed a dedicated service desk application using React. This frontend application is used by agents to raise tickets, manage requests, and follow structured workflows. It communicates with the Laravel API to retrieve and update ticket data in real time. By isolating the service desk into a React-based interface, we achieved a more responsive and interactive experience tailored specifically to operational users.
+      For internal operations, I built a dedicated service desk app in React. Agents use it to manage tickets and workflows in real time, with a faster and more responsive experience connected directly to the Laravel API.
 
 
   ui_focus:
     title: 'User Interface Focus'
     description: |
-      For the backend interface, the initial priority was usability and speed of implementation. We adopted a Bootstrap based admin template as the foundation for the admin system, allowing us to rapidly establish a clean, structured, and responsive layout. The template provided consistent components such as navigation menus, tables, forms, and dashboards, which were then customized to match our workflow requirements and internal branding. Adjustments were made to improve clarity in ticket statuses, booking visibility, and task management, ensuring agents could process requests efficiently without unnecessary friction.
+      For the backend interface, I prioritized usability and fast implementation by adopting a Bootstrap-based admin template. This allowed us to quickly build a clean, responsive layout with consistent components like navigation menus, tables, forms, and dashboards, customized to fit our workflow and branding. I also refined ticket statuses, booking visibility, and task management to help agents work more efficiently.
 
-      Since the project is ongoing, the UI layer is progressively being refactored, moving from a template-customized Bootstrap structure toward a more flexible, modern frontend architecture. This ensures that the user experience continues to improve alongside the technical decoupling of the system.
+      As the project evolves, the UI is being gradually refactored from the template-based Bootstrap structure to a more flexible, modern frontend architecture, improving user experience alongside the system’s technical decoupling.
 ---
 
 
