@@ -40,11 +40,7 @@ sections:
 
       Problem 1. onboarding client. 
 
-      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn.
-
-      I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process.
-
-      Part of this was putting together an SOP for certain tasks. 
+      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn. I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process. Part of this was putting together an SOP for certain tasks. 
 
       Transplating that into software that meets the company needs.
 
