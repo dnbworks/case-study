@@ -2,6 +2,8 @@
 title: 'Restaurant POS'
 date: '2023-03-17'
 description: 'This is a Point of Sale (POS) system designed for restaurants. My inspiration came directly from the system we use at Cielo Alto Place, where I currently work, I was amazed by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it worked.'
+source_code: 'https://github.com/'
+live: 'https://posplace.vercel.app/'
 
 banners:
   - src: 'pay.png'
