@@ -1,7 +1,7 @@
 ---
 title: 'Buzcoders'
 date: '2023-03-17'
-period: "June 2022 - Nov 2024"
+period: "Sept 2024 - May 2025"
 description: 'A web agency website for a marketing company that specializes in web design, SEO, paid ads etc. I was with Buzcoders from September 2024 - May 2025. When I joined, I initiated the stack to be used for the project'
 source_code: 'https://github.com/'
 live: 'https://buzcoders.com'
@@ -17,7 +17,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      I was with Buzcoders from September 2024 - May 2025 and it was interesting, to say the least. When I joined, I initiated the stack to be used for the project. When I first joined. Buzcoders was a soft opening. Had no website, backend system, and SOP. This led to discussions about the agenda and how to make both client and server side. 
+      I was with Buzcoders from September 2024 - May 2025 and it was interesting, to say the least. When I joined, I initiated the stack to be used for the project. Buzcoders was a soft opening. Had no website, backend system, and SOP. This led to discussions about the agenda and how to make both client and server side. 
 
   tech:
     title: 'Tech Stack'
@@ -40,14 +40,12 @@ sections:
 
       Problem 1. onboarding client. 
 
-      Using third-party software was an option, but the client preferred a custom system tailored to their needs. The system also needed to be easy for the staff to learn. I had to put together a system that had components of prospect outreach and onboarding clients to the client approval process. Part of this was putting together an SOP for certain tasks. Transplating that into software that meets the company needs.
+      First thing, we had to put down alternative based on client requirements. and one of them was using third-party software, which wasn't an option since the client preferred a custom system tailored to their the company needs. The client wanted a system that's easy to learn and has a progress feature. After Knowing this input, I had to put together a system that had such features mentioned above. which also included prospect outreach, onboarding clients to the client approval process. Part of this was putting together a process that guided their staff to efficiently complete task. This was like a roadmap. Features found in it included raising tickets and documenting the progress of the project.
     
 
-      I built a customer management system, essentially a CRM and service desk tailored to the company’s day-to-day operations. The goal was simple: help staff resolve customer requests smoothly and efficiently.
+      I built a customer management system, essentially a CRM and service desk tailored to the company’s day-to-day operations. The goal was simple, help staff resolve customer requests smoothly and efficiently. Early on, I mapped out the functional requirements and data flows, paying close attention to how transactions affect inventory. Data integrity was critical.
 
-      Early on, I mapped out the functional requirements and data flows, paying close attention to how transactions affect inventory. Data integrity was critical, no editing past transactions, clear audit trails, and full traceability.
-
-      When designing the interface, I kept one rule in mind: clarity over flash. Warehouse staff should see everything they need at a glance — no hidden actions, no unnecessary minimalism. Just straightforward, practical design.
+      When designing the interface, I kept one rule in mind, clarity over flash. Staff should see everything they need at a glance, no unnecessary minimalism. Just straightforward, practical design.
 
       At first, the entire platform ran on Laravel, handling everything from contact forms and bookings to admin workflows and content. As the system grew, I split responsibilities to keep it scalable and easier to maintain.
 
