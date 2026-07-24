@@ -2,7 +2,7 @@
 title: 'Dowrld'
 date: '2025-12-03'
 period: "Sept 2024 - May 2025"
-description: 'A simple forum for students in URST where they post like tweet about college life, debates and academics'
+description: 'A Campus Forum for Sharing Stories, Building Connections, and Celebrating Student Life'
 source_code: 'https://github.com/'
 live: 'https://dowrld.vercel.app'
 banners:
@@ -17,7 +17,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      I built this project for me to learn authentication in nextjs. 
+      This project is a campus forum where students share their experiences, unforgettable moments, funny encounters, study tips, campus confessions, and everything in between. React to posts, join conversations through comments, and connect with fellow students who understand the ups and downs of college life. Whether it's about surviving exams, making new friends, celebrating achievements, or sharing daily campus adventures, A space to be heard and be part of the conversation.
 
   tech:
     title: 'Tech Stack'
@@ -35,6 +35,7 @@ sections:
   problems_and_solutions:
     title: 'Problems and Solutions'
     description: |
+      This forum is still under development. The current version is a prototype, and the posts shown are dummy content intended for demonstration and testing purposes.
 
 
  
