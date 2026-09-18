@@ -53,6 +53,8 @@ sections:
 
       For internal operations, I built a dedicated service desk app in React. Agents use it to manage tickets and workflows in real time, with a faster and more responsive experience connected directly to the Laravel API.
 
+      queues and jobs
+
 
   ui_focus:
     title: 'User Interface Focus'

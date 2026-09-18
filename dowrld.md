@@ -17,7 +17,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This project is a campus forum where students share their experiences, unforgettable moments, funny encounters, study tips, campus confessions, and everything in between. React to posts, join conversations through comments, and connect with fellow students who understand the ups and downs of college life. Whether it's about surviving exams, making new friends, celebrating achievements, or sharing daily campus adventures, A space to be heard and be part of the conversation.
+      This project is a campus forum for students to share their experiences, unforgettable moments, funny encounters, study tips, and everything in between. React to posts, join conversations through comments, and connect with fellow students who understand the ups and downs of college life. Whether it's about surviving exams, making new friends, celebrating achievements, or sharing daily campus adventures, A space to be heard and be part of the conversation.
 
   tech:
     title: 'Tech Stack'

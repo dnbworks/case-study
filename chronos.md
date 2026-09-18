@@ -2,7 +2,8 @@
 title: 'Chronos'
 date: '2026-08-20'
 period: "February 2026 - to current"
-description: 'A time card more of a biometric system.'
+description: 'A web based task time management system. Employee Duty, Work Duration, Overtime, and Break Time Monitoring System for Supporting Accurate Payroll Processing and Workforce Management'
+
 source_code: 'https://github.com/'
 live: ''
 banners:
@@ -17,7 +18,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This is a web application.
+      This system monitors the amount of time an employee spends on specific activities. Once an employee logs into the system, they select the duty or activity assigned to them for the day, such as CP Chat, which refers to chat support. The system then records the duration of each activity. These time records can be used by the payroll officer to calculate employees’ salaries based on the time they have worked. The system also tracks overtime hours and monitors employees’ break times to ensure they stay within the allowed break-time threshold.
  
   tech:
     title: 'Tech Stack'
@@ -33,6 +34,8 @@ sections:
     description: |
 
       Problem 1. 
+
+      I initially built the application using PHP. Later, I migrated it to the MERN stack.
 
 
 
