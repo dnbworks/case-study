@@ -2,7 +2,7 @@
 title: 'Restaurant POS'
 date: '2023-03-17'
 period: "Apr 2021 - Aug 2022"
-description: 'This is a Point of Sale (POS) system designed for restaurants. My inspiration came directly from the system we use at Cielo Alto Place, where I currently work, I was amazed by how the POS system functioned. Some of the logic behind it was surprisingly simple, yet I was intrigued by how it worked.'
+description: 'A Point of Sale (POS) system designed for restaurants. My inspiration came from a restaurant I worked for. I was fascinated by the logic behind it.'
 source_code: 'https://github.com/dnbworks/pos'
 live: 'https://posplace.vercel.app/'
 
@@ -18,7 +18,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      While I was learning React, I brainstormed various projects to build. I wanted to challenge myself with something more complex. I began admiring the logic behind our workplace POS, amused enough. I started sketching the UI screen by screen. whenever the cashier placed orders. This project is a functional replica of that system.
+      When I was first introduced to React, I realized how much could be built with the library. I wanted to challenge myself with a complex project, something built around core operational needs. My attention turned to the subscription based POS software used at a restaurant I worked for, as its underlying logic fascinated me. so out of pure eagerness, I began sketching out the UI. This project is a functional replica of that system.
 
 
   tech:
@@ -41,7 +41,7 @@ sections:
     description: |
       Key Logic & Features.
 
-      Exploring the "why" behind these features was fascinating. While some of the logic seemed simple on the surface, implementing it correctly required a deep dive into state management. This curiosity drove me to use React.js and Redux Toolkit, which allowed me to manage complex order states effectively.
+      Exploring the why behind these features was fascinating. While some of the logic seemed simple on the surface, implementing it correctly required a deep dive into state management. This curiosity drove me to use Redux Toolkit, which allowed me to manage complex order states effectively.
 
       Order Reassignment
 
