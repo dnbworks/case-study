@@ -2,7 +2,7 @@
 title: 'Cosmos'
 date: '2023-03-17'
 period: "April 2026 - to current"
-description: 'A web-based replica of the messaging system used by delivery drivers.'
+description: 'A replica of the messaging system used by delivery drivers.'
 source_code: 'https://github.com/'
 live: 'https://cosmos-eight-alpha.vercel.app/'
 banners:

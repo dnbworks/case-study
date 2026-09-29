@@ -2,7 +2,7 @@
 title: 'Chronos'
 date: '2026-08-20'
 period: "February 2026 - to current"
-description: 'A web based task time management system. Employee Duty, Work Duration, Overtime, and Break Time Monitoring System for Supporting Accurate Payroll Processing and Workforce Management'
+description: 'A Web Based Employee Time Management System for Monitoring Work Duration, Overtime, and Breaks to Support Accurate Payroll Processing and Workforce Management'
 
 source_code: 'https://github.com/'
 live: ''
