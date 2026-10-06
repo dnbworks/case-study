@@ -23,9 +23,12 @@ sections:
   tech:
     title: 'Tech Stack'
     items:
-      - Timezone
       - Postgres
       - Javascript
+      - Nestjs
+      - Typeorm
+      - Jquery
+      - Timezone
   type:
     title: 'Project Type'
     value: 'Personal'

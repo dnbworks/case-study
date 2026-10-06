@@ -27,6 +27,7 @@ sections:
       - Postgres
       - Reactjs
       - Typescript
+      - Typeorm
       - Docker
   type:
     title: 'Project Type'
