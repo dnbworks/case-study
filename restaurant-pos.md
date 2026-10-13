@@ -18,7 +18,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      When I was first introduced to React, I realized how much could be built with the library. I wanted to challenge myself with a complex project, something built around core operational needs. My attention turned to the subscription based POS software used at a restaurant I worked for, as its underlying logic fascinated me. so out of pure eagerness, I began sketching out the UI. This project is a functional replica of that system.
+      When I was first introduced to React, I realized how much could be built with the library. I wanted to challenge myself with a crazy project, something built around core operational needs. My attention turned to the subscription based POS software used at a restaurant I worked for, as its underlying logic fascinated me. out of pure eagerness, I began sketching out the UI. This project is a functional replica of that system.
 
 
   tech:

@@ -18,7 +18,8 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This system monitors the amount of time an employee spends on specific activities. Once an employee logs into the system, they select the duty or activity assigned to them for the day, such as CP Chat, which refers to chat support. The system then records the duration of each activity. These time records can be used by the payroll officer to calculate employees’ salaries based on the time they have worked. The system also tracks overtime hours and monitors employees’ break times to ensure they stay within the allowed break-time threshold.
+      Chronos is a time management system used by employees, payroll administrators, and real-time workforce managers to deploy labor where it is needed most to maximize efficiency. Chronos allows users to track work durations based on completed tasks, offering customizable options to fit a company daily operation needs. The system stores these records in a PostgreSQL database, which payroll officers then use to calculate employee salaries for each pay period. Additionally, Chronos tracks overtime and monitors break times to ensure employees adhere to allocated break thresholds.
+
  
   tech:
     title: 'Tech Stack'

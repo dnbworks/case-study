@@ -17,7 +17,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-      This is a web application I'm currently working on. It's basically a messaging application customized for delivery transactions. While I was working in customer service, we used a software application to communicate with delivery drivers. They used rugged mobile devices that allowed us to exchange messages regarding deliveries.
+      Cosmos is a web application I'm currently working on. It's basically a messaging application customized for delivery transactions. While I was working in customer service, we used a software application to communicate with delivery drivers. They used rugged mobile devices that allowed us to exchange messages about deliveries.
  
   tech:
     title: 'Tech Stack'
