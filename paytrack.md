@@ -2,10 +2,9 @@
 title: 'PayTrack - Payroll Management System'
 date: '2026-11-01'
 period: "Oct 27 - Current"
-description: 'PayTrack is a web-based Payroll Management System designed to simplify and streamline employee management, attendance monitoring, payroll processing, and report generation'
-
-source_code: 'https://github.com/dnbworks/pos'
-live: 'https://posplace.vercel.app/'
+description: 'PayTrack is a web-based Payroll Management System designed to simplify and streamline employee management, attendance monitoring, payroll processing, and report generation.'
+source_code: 'https://github.com/dnbworks/paytrack/'
+live: 'https://paytrack.vercel.app/'
 
 banners:
   - src: 'paytrack-dashboard.png'
@@ -19,7 +18,7 @@ sections:
   overview:
     title: 'Overview'
     description: |
-       It provides a centralized platform where administrators and HR personnel can efficiently manage employee information, track daily attendance, calculate salaries, monitor payroll cutoffs, and maintain organized payroll records. 
+      It provides a centralized platform where administrators and HR personnel can efficiently manage employee information, track daily attendance, calculate salaries, monitor payroll cutoffs, and maintain organized payroll records. 
 
 
   tech:
@@ -42,9 +41,7 @@ sections:
       It provides a centralized platform where administrators and HR personnel can efficiently manage employee information, track daily attendance, calculate salaries, monitor payroll cutoffs, and maintain organized payroll records.
 
       The system is designed to reduce manual work, minimize calculation errors, and improve the accuracy and efficiency of payroll operations. Through its user-friendly dashboard, users can easily navigate different modules and access important payroll information.
-			
-
-
+	
 
   ui_focus:
     title: 'User Interface Focus'
